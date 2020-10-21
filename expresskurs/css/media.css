@@ -1,0 +1,112 @@
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 3.4rem;
+		font-weight: 300;
+	}
+	h2 {
+		font-size: 4.2rem;
+		font-weight: 300;
+	}
+	h3 {
+		font-size: 2.7rem;
+		font-weight: 300;
+	}
+	.left {
+	    display: flex;
+	}
+	.right {
+	    margin-left: 13em;
+	}
+	.human {
+	    width: 300px;
+	    height: 300px;
+	    margin: 1em;
+	}
+	.over {
+	   font-size: 3em;
+	   background: rgba(109, 136, 54, 0.8);
+	}
+	.over h2 {
+	    font-size: 1em;
+	    margin-top: 0.6em;
+	    color: white;
+	   }
+    .over p {
+        border-top: 2px solid #fff;
+        padding-top: 0.65em;
+        margin-top: 0.95em;
+        font-size: 0.35em;
+    }
+	.day {
+	    width: 220px;
+	    height: 220px;
+	    margin: 1em;
+	}
+	.menu-fon {
+	    display: none;
+	}
+	.banner {
+	    padding: 2.5em 2em 3em 2.5em;
+	}
+	.banner h1 {
+	    font-size: 6em;
+	}
+	.banner p {
+	    font-size: 1.5em;
+        text-align: right;
+	}
+	.prev {
+	    font-size: 1.1em;
+	    color: white;
+	    text-transform: uppercase;
+	    border: 3px solid white;
+	    padding: 0.4em 0.7em;
+	    transition: 0.3s;
+	}
+    .prev:hover {
+        color: #f2c04b;
+        background-color: white;
+    }
+    
+    
+    .first_hi {
+        width: 50%;
+    }
+    .first_hi img {
+        width: 100%;
+    }
+    .second_hi {
+        width: 50%;
+        padding: 2.5em 1.5em 1.5em 1.5em;
+    }
+    .text_hi {
+        color: black;
+        overflow-y: auto;
+        height: 100%;
+    }
+    .text_hi p,ul {
+        margin-bottom: 0.8em;
+    }
+    .check_hi {
+        margin-right: 0.2em;
+    }
+
+}
+
+
+@font-face {
+    font-family: Lol;
+    src: url('../css/fonts/16213.ttf');
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url('../css/fonts/10821.ttf');
+}
+@font-face {
+    font-family: Sans;
+    src: url('../css/fonts/2221.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../css/fonts/Roboto.ttf');
+}
