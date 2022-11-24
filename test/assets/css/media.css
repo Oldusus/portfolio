@@ -1,0 +1,44 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+@font-face {
+    font-family: 'Amiko Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiko Regular'), local('Amiko-Regular'),
+        url(../../assets/files/fonts/Amiko-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cuprum'), local('Cuprum'),
+        url(../../assets/files/fonts/Cuprum.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OldStandard Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('OldStandard Italic'), local('OldStandard-Italic'),
+        url(../../assets/files/fonts/OldStandard-Italic.ttf) format('truetype');
+}
