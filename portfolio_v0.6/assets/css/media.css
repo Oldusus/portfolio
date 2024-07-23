@@ -1,0 +1,99 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.s-padding {
+  padding: 6rem 8rem 6rem 8rem;
+}
+
+#header p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.block1 {
+  flex-direction: row;
+}
+
+.items {
+  flex-direction: row;
+}
+  .item {
+      width: calc(33% - 1rem);
+      margin: 0 0.5rem;
+    } 
+      .item:first-child {
+        margin-left: 0;
+        width: calc(33% - 0.5rem);
+      }
+      .item:last-child {
+        margin-right: 0;
+        width: calc(33% - 0.5rem);
+      }
+
+table td:first-child {
+  width: 90%;
+}
+  table td:last-child {
+    width: 10%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: local("SourceSansPro-Regular"),
+       url("../files/fonts/Source Sans Pro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Merriweather";
+  src: local("Merriweather-Regular"),
+       url("../files/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+@font-face {
+  font-family: "Merriweather-Italic";
+  src: local("Merriweather-Italic"),
+       url("../files/fonts/Merriweather/Merriweather-Italic.ttf");
+}
+
+@font-face {
+  font-family: "arrow_r";
+  src: local("arrow_r"),
+       url("../files/fonts/arrow_r.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: local("Ubuntu-Regular"),
+       url("Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: local("Ubuntu-Regular"),
+       url("../files/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-Italic";
+  src: local("Ubuntu-Italic"),
+       url("../files/fonts/Ubuntu/Ubuntu-Italic.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: local("Ubuntu-Bold"),
+       url("../files/fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
