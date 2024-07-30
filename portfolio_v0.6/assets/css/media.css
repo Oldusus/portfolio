@@ -27,21 +27,26 @@
   flex-direction: row;
 }
 
+.feedback-links a:last-child {
+  margin: 0rem;
+  margin-left: 0.5rem;
+}
+
 .items {
   flex-direction: row;
 }
   .item {
-      width: calc(33% - 1rem);
-      margin: 0 0.5rem;
-    } 
-      .item:first-child {
-        margin-left: 0;
-        width: calc(33% - 0.5rem);
-      }
-      .item:last-child {
-        margin-right: 0;
-        width: calc(33% - 0.5rem);
-      }
+    width: calc(33% - 1rem);
+    margin: 0 0.5rem;
+  } 
+    .item:first-child {
+      margin-left: 0;
+      width: calc(33% - 0.5rem);
+    }
+    .item:last-child {
+      margin-right: 0;
+      width: calc(33% - 0.5rem);
+    }
 
 table td:first-child {
   width: 90%;
@@ -72,9 +77,9 @@ table td:first-child {
 }
 
 @font-face {
-  font-family: "arrow_r";
-  src: local("arrow_r"),
-       url("../files/fonts/arrow_r.ttf");
+  font-family: "icomoon";
+  src: local("icomoon"),
+       url("../files/fonts/icomoon.ttf");
 }
 
 @font-face {

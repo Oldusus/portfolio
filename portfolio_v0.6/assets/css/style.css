@@ -5,10 +5,10 @@ ul, ol, h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-weight: 900;
-    line-height: 1.5;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    margin: 0 0 1rem 0;
+	line-height: 1.5;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	margin: 0 0 1rem 0;
 }
 	strong, b {
 		font-weight: 600;
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 0 0 1.5rem 0;
+		margin: 0 0 1rem 0;
 		color: rgb(71 100 126);
 	}
 
@@ -36,7 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h5 {
-		font-size: 0.9rem;
+		font-size: 1rem;
+		font-weight: 100;
+		font-family: 'Ubuntu-Bold';
+		opacity: 0.6;
 	}
 
 	h6 {
@@ -58,6 +61,14 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 0;
 		color: rgb(37 65 90 / 70%);
 	}
+.modal-content {
+	border: none;
+    border-radius: unset;
+}
+.modal-header {
+	border-radius: unset;
+    border: 0;
+}
 body {
 	font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
@@ -219,7 +230,7 @@ body {
 
 		header > h3 + p {
 			font-size: 1.1rem;
-			margin-top: -0.75rem;
+			/* margin-top: -0.75rem; */
 			margin-bottom: 2rem;
 		}
 
@@ -235,6 +246,54 @@ body {
 			.fit-picture {
 				width: 100%;
 			}
+.feedback-links {
+	display: flex;
+	flex-wrap: wrap;
+}
+	.feedback-links a {	
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		line-height: 1.5rem;
+		text-decoration: none;
+		background-color: grey;
+		padding: 0.5rem 1rem;
+		margin: 0 0.5rem;
+	}
+		.feedback-links a:first-child {
+			margin-left: 0;
+		}
+		.feedback-links a:last-child {
+			margin: 0rem;
+			margin-top: 1rem;
+		}
+		.feedback-links a:before {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			font-family: "icomoon";
+			font-size: 1rem;
+			margin-right: 0.5rem;			
+		}
+			#telegram {
+				background-color: #2ba3d6;
+			}
+				#telegram:before {
+					content: "\ea95";
+				}
+			#github {
+				background-color: #773ec7;
+			}
+				#github:before {
+					content: "\eab0";
+				}
+			#mail {
+				background-color: #0278d4;
+			}
+				#mail:before {
+					content: "\e902";
+				}
 
 .items {
 	display: flex;
@@ -312,7 +371,7 @@ body {
 				font-size: 1.25rem;
 			}
 				.i-footer h3:after {
-					font-family: arrow_r;
+					font-family: "icomoon";
 					font-size: 1.5rem;
 					content: "\e900";
 				}
