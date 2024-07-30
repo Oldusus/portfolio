@@ -85,7 +85,7 @@ table td:first-child {
 @font-face {
   font-family: "Helvetica";
   src: local("Helvetica"),
-       url("../files/fonts/helvetica_bold.otf");
+       url("../files/fonts/helvetica_regular.otf");
 }
 @font-face {
   font-family: "Ubuntu";
