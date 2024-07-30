@@ -82,7 +82,11 @@ table td:first-child {
        url("../files/fonts/icomoon.ttf");
 }
 
-
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"),
+       url("../files/fonts/Ubuntu/helvetica_bold.otf");
+}
 @font-face {
   font-family: "Ubuntu";
   src: local("Ubuntu-Regular"),
