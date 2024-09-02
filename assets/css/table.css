@@ -1,0 +1,126 @@
+table {
+	font-family: 'Merriweather-Italic';
+	margin-bottom: 0rem;
+	width: 100%;
+}
+
+	table tbody tr {
+		border: solid 1px;
+		border-left: 0;
+		border-right: 0;
+	}
+
+	table td {
+		padding: 0.3rem 0rem;
+	}
+		.t-spec table td:last-child {
+			text-align:center;
+		}
+		table td:first-child {
+			width: calc(80% - 0.5rem);
+			font-size: 1.1rem;
+			line-height: 1.5rem;
+			padding-left: 0.5rem;
+		}
+			table td:first-child b {
+				color: #8ed18e;
+			}
+		table td:last-child {
+			width: 20%;
+		}
+
+	table th {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.8rem;
+		font-weight: 900;
+		letter-spacing: 0.075em;
+		line-height: 1.5;
+		padding: 0 0rem 0.75rem 0rem;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+		@media screen and (max-width: 980px) {
+			
+			table th {
+				font-size: 0.9rem;
+			}
+			
+		}
+
+	table thead {
+		border-bottom: solid 2px;
+	}
+
+	table tfoot {
+		border-top: solid 2px;
+	}
+
+	table.alt {
+		border-collapse: separate;
+	}
+
+		table.alt tbody tr td {
+			border: solid 1px;
+			border-left-width: 0;
+			border-top-width: 0;
+		}
+
+			table.alt tbody tr td:first-child {
+				border-left-width: 1px;
+			}
+
+		table.alt tbody tr:first-child td {
+			border-top-width: 1px;
+		}
+
+		table.alt thead {
+			border-bottom: 0;
+		}
+
+		table.alt tfoot {
+			border-top: 0;
+		}
+
+table tbody tr {
+	border-color: #eeeeee;
+}
+	table tbody tr:nth-child(2n + 1) {
+		background-color: rgba(220, 220, 220, 0.25);
+	}
+
+		table th {
+			color: #212931;
+		}
+
+	table thead {
+		border-bottom-color: #eeeeee;
+	}
+
+	table tfoot {
+		border-top-color: #eeeeee;
+	}
+
+		table.alt tbody tr td {
+			border-color: #eeeeee;
+		}
+.tik {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #ffffff !important;
+	font-size: 0.8rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.075em;
+	background-color: #212931;
+	background-color: #593a3a;
+	background-color: #d18e8e;
+	height: 100%;
+	width: calc(100% - 1rem);
+	padding: 0 0.5rem;
+	margin: 0 0.5rem;
+}

@@ -1,0 +1,68 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.s-padding {
+  padding: 6rem 8rem 6rem 8rem;
+}
+
+#header p {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+#header p:last-child {
+  font-size: 2rem;
+}
+.block1 {
+  flex-direction: row;
+}
+
+.feedback-links a:last-child {
+  margin: 0rem;
+  margin-left: 0.5rem;
+}
+
+.items {
+  flex-direction: row;
+}
+  .item {
+    width: calc(33% - 1rem);
+    margin: 0 0.5rem;
+  } 
+    .item:first-child {
+      margin-left: 0;
+      width: calc(33% - 0.5rem);
+    }
+    .item:last-child {
+      margin-right: 0;
+      width: calc(33% - 0.5rem);
+    }
+
+table td:first-child {
+  width: 90%;
+}
+  table td:last-child {
+    width: 10%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+@font-face {
+  font-family: "icomoon";
+  src: local("icomoon"),
+       url("../files/fonts/icomoon.ttf");
+}

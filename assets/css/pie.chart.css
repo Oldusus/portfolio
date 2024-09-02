@@ -1,0 +1,97 @@
+.pie-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.pie-container {
+    position: relative;
+    display: flex;
+    width: 12rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+    .pie-container:before {
+        content: "";
+        display: flex;
+        vertical-align: middle;
+        padding-top: 100%;
+    }
+
+.pie-container::after{
+    content: "";
+    position: absolute;
+}
+
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    clip: rect(0rem, 6rem, 12rem, 0rem);
+}
+
+#jq {
+    z-index: 10;
+    background-color: rgb(195 200 118);
+    transform: rotate(326deg);
+}
+    #jq-name {
+        background-color: rgb(195 200 118);
+    }
+
+#mys {
+    z-index: 20;
+    background-color: rgb(118 177 200);
+    transform: rotate(151deg);
+}
+    #mys-name {
+        background-color: rgb(118 177 200);
+    }
+
+#php {
+    z-index: 30;
+    background-color: rgb(146 118 200);
+    transform: rotate(29deg);
+}
+    #php-name {
+        background-color: rgb(146 118 200);
+    }
+
+#hs {
+    z-index: 40;
+    background-color: rgb(200 118 118);
+    transform: rotate(110deg);
+}
+    #hs-name {
+        background-color: rgb(200 118 118);
+    }
+
+.pie-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+    .pie-name {
+        display: flex;
+        margin: 0.5rem;
+    }
+        .pie-name span {
+            display: flex;
+            width: 2rem;
+            margin-right: 0.5rem;
+            background-color: grey;
+        }
+            .pie-name span:before {
+                content: "";
+                display: flex;
+                vertical-align: middle;
+                padding-top: 100%;
+            }
+        .pie-name p {
+            font-size: 1rem;
+            line-height: 2rem;
+        }
