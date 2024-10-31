@@ -49,6 +49,18 @@
       margin-right: 0;
       width: calc(33% - 0.5rem);
     }
+.sites {
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+  .sites-c {
+    width: 33.333333333333%;
+  }
+  .site:last-child {
+    margin-bottom: 0;
+  }
+
+      
 
 table td:first-child {
   width: 90%;
