@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat:300,300italic,regular,italic,700,700italic&subset=cyrillic);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*  special  */
+  special  */
 ul, ol, h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2rem;
 }
@@ -395,6 +395,93 @@ body {
 					color: rgb(118 200 145);
 				}
 
+
+    
+	.sites {
+		display: flex;
+		flex-direction: column;
+		column-gap: 0rem;
+	}
+		.sites-c {
+      		display: flex;
+      		flex-direction: column;
+      		width: 100%;
+    	}
+		.site {
+			display: flex;
+			flex-direction: column;
+			background-color: #ffffff;
+			width: 100%;
+			margin-bottom: 1.5rem;
+			padding: 1rem;
+			text-decoration: none;
+		}
+			.site:last-child {
+				margin-bottom: 1.5rem;
+			}
+			.site h3 {
+
+			}
+			.site img {
+    			margin: 0 0 1rem 0;
+			}
+			.site p {		
+				line-height: 1.4rem;
+			}
+			.killkg {
+				background-color: #c87676;
+			}
+				.killkg h3 {
+					color: #4f2e2e;
+				}
+				.killkg p {
+					color: #4f2e2e;
+				}
+			.konstrukt {
+				background-color: #76aec8;
+			}
+				.konstrukt h3 {
+					color: #2f444f;
+				}
+				.konstrukt p {
+					color: #2f444f;
+				}
+			.newbelly {
+				background-color: #e7d6ac;
+			}
+				.newbelly h3 {
+					color: #5f5846;
+				}
+				.newbelly p {
+					color: #5f5846;
+				}
+			.protelo {
+				background-color: #b4cdfd;
+			}
+				.protelo h3 {
+					color: #596275;
+				}
+				.protelo p {
+					color: #596275;
+				}
+			.magic-pill {
+				background-color: #4a525b;
+			}
+				.magic-pill h3 {
+					color: #dddddd;
+				}
+				.magic-pill p {
+					color: #dddddd;
+				}
+			.calc {
+				background-color: #76c880;
+			}
+				.calc h3 {
+					color: #e8ffe7;
+				}
+				.calc p {
+					color: #e8ffe7;
+				}
 .s-padding {
 	padding: 4rem 2rem 2rem 2rem;
 }
